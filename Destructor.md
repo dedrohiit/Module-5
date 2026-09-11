@@ -22,8 +22,8 @@ The program defines a class `Demo` with:
    - Delete the object using the `del` keyword.
 ## Program
 
-# Reg.No: 212222210020
-# Name: Prithisha S
+# Reg.No: 212223080045
+# Name: Rohit R
 
 class Demo:
     def __del__(self):
