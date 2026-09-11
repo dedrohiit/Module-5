@@ -12,8 +12,21 @@ To write a Python program that creates a **Student** class with a **default cons
 
 ## 🧾 Program
 
-Add code here
+# Reg.No: 212222210020
+# Name: Prithisha S
+
+class Student:
+    def __init__(self, name):
+        self.name = name
+        print("Welcome", self.name)
+
+name = input("Enter student name: ")
+s = Student(name)
 
 ## Output
 
+Enter student name: Prithisha
+Welcome Prithisha
+
 ## Result
+The programs were implemented successfully and the outputs were verified.
