@@ -21,9 +21,21 @@ The program defines a class `Demo` with:
    - Create an instance of the `Demo` class.
    - Delete the object using the `del` keyword.
 ## Program
-Add code Here
+
+# Reg.No: 212222210020
+# Name: Prithisha S
+
+class Demo:
+    def __del__(self):
+        print("Destructor called")
+
+obj = Demo()
+del obj
 
 ## 🧪 Output
 
+Destructor called
+
 ## Result
+The programs were implemented successfully and the outputs were verified.
 
